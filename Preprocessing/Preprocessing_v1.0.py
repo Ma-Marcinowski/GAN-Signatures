@@ -10,12 +10,20 @@ def Preprocessing(images_in_path, inputs_out_path, outputs_out_path):
     listed = zip(img_paths, img_names)
 
     #Create a matrix of ones and zeros to defragment the signatures, creating input images.
+    #Generate a vector of 512 zeros.
     fmat = np.zeros(512)
+    #Turn every third zero into a one (i.e.: [1, 0, 0, 1]).
     fmat[0::3] = 1
-    for every in range(3):
+    #For every vector with ones and zeros, concatenate two vectors with zeros (i.e.: [1, 0, 0, 1
+    #                                                                                 0, 0, 0, 0
+    #                                                                                 0, 0, 0, 0,
+    #                                                                                 1, 0, 0, 1])
+    for every in range(2):
         emat = np.zeros(512)
         fmat = np.concatenate((fmat, emat))
+    #Resize the 512*3 vector into 512*512 vector.
     fmat = np.resize(fmat, (512*512))
+    #Reshape the 512*512 vector into a 512x512 matrix.
     fmat = np.reshape(fmat, (512, 512))
 
     for j, i in tqdm(listed, total=len(img_paths), desc='j-loop'):
