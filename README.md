@@ -30,9 +30,6 @@
      * Where SPADE was utilized and of Batch Normalization, based on: Park, Taesung, Ming-Yu Liu, Ting-Chun Wang, and Jun-Yan Zhu. ‘Semantic Image Synthesis with Spatially-Adaptive Normalization’. arXiv, 5 November 2019. https://doi.org/10.48550/arXiv.1903.07291.
 
 * #### 1.2. Initial results:
-
-     ![example1](https://github.com/Ma-Marcinowski/GAN-Signatures/blob/main/Examples/Example1.png "Example 1")
      
-     ![example3](https://github.com/Ma-Marcinowski/GAN-Signatures/blob/main/Examples/Example2.png "Example 2")
+     ![example](https://github.com/Ma-Marcinowski/GAN-Signatures/blob/main/Examples/Example.png "Example")
      
-     ![example2](https://github.com/Ma-Marcinowski/GAN-Signatures/blob/main/Examples/Example3.png "Example 3")
