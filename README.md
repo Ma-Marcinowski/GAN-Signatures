@@ -31,5 +31,5 @@
 
 * #### 1.2. Initial results:
      
-     ![example](https://github.com/Ma-Marcinowski/GAN-Signatures/blob/main/Examples/Example.png "Example")
+     ![example](https://github.com/Ma-Marcinowski/GAN-Signatures/blob/main/Examples/Examples.png "Example")
      
