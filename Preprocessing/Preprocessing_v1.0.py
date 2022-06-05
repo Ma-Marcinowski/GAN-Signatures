@@ -9,6 +9,7 @@ def Preprocessing(images_in_path, inputs_out_path, outputs_out_path):
     img_paths = [images_in_path + n for n in img_names]
     listed = zip(img_paths, img_names)
 
+    #Create a matrix of ones and zeros to defragment the signatures, creating input images.
     fmat = np.zeros(512)
     fmat[0::3] = 1
     for every in range(3):
@@ -47,7 +48,7 @@ def Preprocessing(images_in_path, inputs_out_path, outputs_out_path):
         cv2.imwrite(outputs_out_path + i, denv)
 
 
-
+        
         thv, denv = cv2.threshold(denv, 55, 255, cv2.THRESH_TOZERO)
         
         ret,th = cv2.threshold(denv,0,255,cv2.THRESH_BINARY+cv2.THRESH_OTSU)
@@ -57,7 +58,7 @@ def Preprocessing(images_in_path, inputs_out_path, outputs_out_path):
         cv2.imwrite(inputs_out_path + i, fragmented)
 
 
-
+        
     print('Done preprocessing.')
 
 Data = Preprocessing(images_in_path='/path/to/raw/images/',
