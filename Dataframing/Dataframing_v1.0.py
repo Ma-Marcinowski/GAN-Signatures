@@ -25,7 +25,6 @@ def Dataframe(inputs_in_path, outputs_in_path, inputs_in_df, outputs_in_df, df_p
                                                             
     print('Done dataframing.')
 
-
 Dataframe = Dataframe(inputs_in_path='/path/to/input/images/',
                       outputs_in_path='/path/to/output/and/mask/images/',
                       inputs_in_df='/path/to/input/images/saved/in/the/dataframe/',
