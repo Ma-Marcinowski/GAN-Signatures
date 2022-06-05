@@ -31,6 +31,6 @@
 
 * #### 1.2. Initial results:
 
-      ![example1](https://github.com/Ma-Marcinowski/GAN-Signatures/blob/main/Examples/Example1.png)
-      ![example3](https://github.com/Ma-Marcinowski/GAN-Signatures/blob/main/Examples/Example2.png)
-      ![example2](https://github.com/Ma-Marcinowski/GAN-Signatures/blob/main/Examples/Example3.png)
+     ![example1](https://github.com/Ma-Marcinowski/GAN-Signatures/blob/main/Examples/Example1.png)
+     ![example3](https://github.com/Ma-Marcinowski/GAN-Signatures/blob/main/Examples/Example2.png)
+     ![example2](https://github.com/Ma-Marcinowski/GAN-Signatures/blob/main/Examples/Example3.png)
